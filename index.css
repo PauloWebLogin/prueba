@@ -1,0 +1,92 @@
+* {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 20vh;
+    background-color: #303030;
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+}
+
+.textHeader {
+    color: #909090;
+}
+
+nav {
+    height: 10vh;
+    background-color: #606060;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botton {
+    width: 20vw;
+    height: 8vh;
+    background-color: #909090;
+    color: #303030;
+    text-decoration: none;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 45vh;
+    width: 100vw;
+    background-color: #909090;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+section {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.fotoAlbum {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textoAlbum {
+    height: 12.5vh;
+    width: 18.3%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    align-content: space-around;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}    
+
+footer {
+    height: 15vh;
+    background-color: #303030;
+    color: #909090;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerOne {
+    width: 20vw;
+    height: 13vh;
+}
+
+.footerOne a {
+    text-decoration: none;
+    color: #909090;
+}
